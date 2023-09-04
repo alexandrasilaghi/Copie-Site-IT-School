@@ -251,22 +251,22 @@
         width: 100%;
     }
 }
+.companies{
+    background-color: var(--bg-light);
+}
 .companies h2 {
     padding-top: var(--spacing-large);
     text-align: center;
 }
-
 .companies h2, .companies .companies-container {
     margin-bottom: var(--spacing-large);
 }
-
 .companies .companies-container {
     display: flex;
     flex-wrap:wrap-reverse;
     justify-content:space-evenly;
     margin: 0 var(--spacing-xl);
 }
-
 .companies .image-wrapper {
     width: 100px;
     margin-right: var(--spacing-xl);
